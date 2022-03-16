@@ -7,7 +7,7 @@ public class Ball : MonoBehaviour
     private Rigidbody m_Rigidbody;
     private GameManager m_GameManager;
 
-    private float m_MaxVelocity = 10.0f;
+    private float m_MaxVelocity = 8.0f;
     private float m_VelocityIncrease = 0.01f;
 
     private void OnCollisionExit(Collision collision)

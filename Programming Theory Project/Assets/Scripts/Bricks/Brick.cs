@@ -26,7 +26,7 @@ public class Brick : MonoBehaviour
 
         if(m_Health <= 0)
         {
-            Destroy(gameObject, 0.2f);
+            Destroy(gameObject, 0.1f);
         }
         else 
         {
